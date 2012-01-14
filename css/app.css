@@ -1,0 +1,116 @@
+body {
+    font-family: 'Lato', Arial;
+    padding: 0;
+    color: #EFEFEF;
+	background: #E6E6E6;
+}
+header {
+	background: #222 url(/images/dark-background.jpg) top left;
+	border-bottom: 1px solid #555;
+	-webkit-box-shadow: 0px 0px 5px #333;
+	-moz-box-shadow: 0px 0px 5px #333;
+	box-shadow: 0px 0px 5px #333;
+}
+h1 {
+	max-width: 720px;
+	font-family: 'Oswald', Arial;
+	padding: 1.25em 0;
+	font-size: 150%; /* 24 / 16 */ 
+	text-shadow: 0 2px 1px #000;
+	margin: 0 auto;
+	width: 93%;
+}
+article {
+    padding-bottom: 2em;
+    margin: 0 auto;
+    width: 93%;
+    margin: 0 auto;
+    max-width: 720px;
+    color: #222;
+}
+header {
+	margin-bottom: 1.25em;
+}
+#logo {
+	width: 50px;
+}
+.clear {
+	clear: both;
+}
+
+/** Twitter **/
+#content .twitterfeed {
+  float: left;
+  background-color: #fff;
+  width: 395px;
+  margin: 10px 0px 30px 0;
+  border: 1px solid #d8d8d8;
+  padding: 5px 5px 15px 5px;
+}
+
+#content img  {
+  margin: 5px 0px 0px 10px;
+}
+
+#content h3 {
+  float: right;
+  color: #000;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  font-weight: bold;
+  width: 235px;
+  padding: 10px 5px 10px 10px;
+  margin: 10px 10px 25px 0px;
+  text-shadow: 0 1px 0 #fff;
+  border: 1px solid #d8d8d8;
+}
+
+#content h3 a {
+  text-decoration: none;
+}
+
+#content hr {
+  width: 90%;
+  height: 1px;
+  background: #dfdfdf;
+  display: block;
+  border: none;
+  margin: 20px 0px 20px 18px;
+}
+
+#tweet  {
+  float: none;
+  clear: both;
+}
+
+#tweet p {
+  margin: 15px 15px 10px 15px;
+}
+
+#web_intent {
+  margin: 0px 0px 0px 15px;
+}
+
+#web_intent a:link, #web_intent a:visited, #web_intent a:active {
+  margin: 0px 10px 0px 0px;
+}
+
+#web_intent img {
+  margin: 0px 3px 0px 0px;
+  position: relative;
+  top: 2px;
+}
+
+#web_intent .time {
+  margin: 0px 10px 0px 0px;
+}
+
+#follow-envatowebdev  {
+  margin: 0px 10px 0px 75px;
+}
+#follow-twitter_screen_name {
+	margin: 0 0 0 95px;
+}
+.log-button {
+  margin: 10px 10px 0px 115px;
+}

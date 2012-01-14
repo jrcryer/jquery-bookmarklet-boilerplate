@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Bookmarklet Test Page</title>
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
+		<link type="text/css" href="css/app.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<h1>Bookmarklet Test Page</h1>
+		</header>
+		<article>
+			<p>
+				<a href="javascript:(function(){
+					var app = document.createElement('script'); app.type = 'text/javascript'; app.async = true;
+					app.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'localhost/bookmarklet/js/app.js';
+  					document.body.appendChild(app);  
+  				})();">Externalise it</a>
+			</p>
+		</article>
+	</body>
+</html>
